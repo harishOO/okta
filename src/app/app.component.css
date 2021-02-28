@@ -1,0 +1,208 @@
+.background {
+    background-color:#39A3F4;
+    box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    color: #fff;
+    position: fixed;
+    z-index: 999;
+  }
+
+  ::ng-deep .ui-inputtext:enabled:hover:not(.ui-state-error){
+    border-color: #39a3f4;
+    box-shadow: 0 0 7px 0 #39a3f4;
+    -webkit-box-shadow: 0 0 7px 0 #39a3f4;
+}
+::ng-deep .ui-widget-content .ui-inputtext{
+    font-weight: 400;
+}
+::ng-deep .ui-inputtext{
+    color: #424242;
+    font-size: 14px;
+    background: #ffffff;
+    padding: 0.429em;
+    border: 1px solid #cccccc;
+    -moz-transition: box-shadow 0.3s, border-color 0.3s;
+    -o-transition: box-shadow 0.3s, border-color 0.3s;
+    -webkit-transition: box-shadow 0.3s, border-color 0.3s;
+    transition: box-shadow 0.3s, border-color 0.3s;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-appearance: none;
+}
+.save_btn{
+    vertical-align: middle;
+    color: #ffffff;
+    background-color: #39a3f4;
+    border: 1px solid transparent;
+    font-size: 14px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    border-radius: 2px;
+    padding: 5px 25px 5px 25px;
+
+}
+.save_btn:active{
+    background-color: #0d86e3;
+}
+.save_btn:focus{
+    outline: 0 none;
+    box-shadow: 0 0 14px 0 #39a3f4;
+    -webkit-box-shadow: 0 0 14px 0 #39a3f4;
+}
+.w-60{
+    width: 60%;
+}
+label{
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 4px;
+}
+.task input{
+    border-left: 5px solid green !important;
+}
+.task select{
+    border-left: 5px solid green !important;
+}
+
+/*
+app
+*/
+.example-icon {
+    padding: 0 14px;
+  }
+  
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  .aklogo {
+    width: 17%;
+    height: auto;
+  }
+  
+  .logo {
+    width: 22%;
+  }
+  
+  .logout_btn {
+    color: #fff;
+  }
+  
+  .background {
+    background-color:#39A3F4;
+    box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    color: #fff;
+    position: fixed;
+    z-index: 999;
+  }
+  
+  .mr-15 {
+    margin-right: 20%;
+    margin-left: 7%;
+  }
+  
+  .in_br {
+    background-color: #3e4f5f;
+    border: 0px;
+    border-radius: 20px;
+    color: #fff;
+  }
+  
+  
+  .headerheight {
+    height: 56px;
+  }
+  
+  .active {
+    color: #39a3f4;
+    font-weight: 700;
+    border: none;
+    font-size: 14px;
+    /* border: 1px solid black !important; */
+    /* background-color: #54B847; */
+    
+  }
+  
+  .fa-sign-out {
+    font-size: 24px;
+    color: #d9d9d9;
+    padding: 5px;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+  }
+  
+  .shadow {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26);
+  }
+  
+  
+  
+  
+  
+  
+  .example-spacer {
+    flex: 1 auto;
+  }
+  
+  .nav-link {
+    cursor: pointer;
+  }
+  
+  ::ng-deep .mat-toolbar-row,
+  .mat-toolbar-single-row {
+    height: 55px !important;
+  }
+  
+  ::ng-deep .mat-toolbar-multiple-rows {
+    min-height: 0px !important;
+  }
+  
+  /* .active{
+      background-color: #fafafa;
+      color: #000;
+      border: 0px solid #fff;
+      font-weight: 600;
+  } */
+  
+  /* ul li {
+    list-style: none;
+    border-bottom: 1px solid #39a3f4;
+    
+  } */
+  
+  ul li:first-child {
+    margin: 1.0rem 0 0 0;
+    
+  }
+  
+  ul li:last-child {
+    margin: 0 0 2rem 0;
+  }
+  
+  .example-container {
+    overflow: hidden;
+    height: 100%;
+    background: #FFFFFF;
+  }
+  
+ 
+  /* .pading_style{
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+  } */
+  
+  /* 
+  @media only screen and (max-width: 736px) and (orientation:portrait) {
+      mat-header-row, mat-row {
+       width: 200%;  
+      }
+  
+    } */
+  
+    .right {
+        position: absolute;
+        right: 0px; 
+        cursor: pointer;
+        padding: 10px;
+      }
